@@ -1,1 +1,17 @@
 Git 常用命令 查询：（参考http://www.liaoxuefeng.com）
+
+---------
+/** 本地的项目，然后push到github上，先出现了这问题。
+    github上的项目是新建的，多了一个readme.txt
+**/
+1. git remote add origin git@github.com:yaonuo/Path.git // 关联本地和github上的origin
+2. 拉数据
+>> Nashio Yao $ git pull origin master
+From github.com:yaonuo/Path
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+解决办法 -- 无共同祖先
+>> Nashio Yao $ git pull origin master --allow-unrelated-histories
+ 
+--------
