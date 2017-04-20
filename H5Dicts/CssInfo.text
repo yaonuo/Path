@@ -32,7 +32,7 @@ span{
 .food>li{border:1px solid red;} 使class名为food下的子元素li（水果、蔬菜）加入红色实线边框。
 
 // 包含(后代)选择器
-.类选器名称 空格  子选择器{css样式代码;}
+选器名称 空格  子选择器{css样式代码;}
 .first  span{color:red;}  使class名为first下的所有span内的文本字体颜色变为红色。
 
 总结：>作用于元素的第一代后代，空格作用于元素的所有后代。
@@ -47,6 +47,12 @@ a:hover{color:red;} 为 a 标签鼠标滑过的状态设置字体颜色变红。
 // 分组选择符 即：html中多个标签元素设置同一个样式时
 h1,span{color:red;} 为h1、span标签同时设置字体颜色为红色：
 
+
+// 文本排版
+body{font-family:"Microsoft Yahei";} 	// 字体：微软雅黑，常用！！
+body{font-size:12px;color:#666}			// 字号：12	颜色：灰色
+p span{font-weight:bold;}				// 粗体
+p a{font-style:italic;}					// 
 
 
 
