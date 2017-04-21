@@ -102,7 +102,7 @@ c.通过display:inline-block 强转成块级元素
 纸盒 - 纸盒 		---			外边距：margin
 2.注意：
 a.边框、内填充、外边距 都有四个方向，如：padding-left 、margin-bottom
-b.实际高度 ＝ 内容 + pading * 2 + border * 2
+b.实际尺寸 ＝ border * 2 + margin * 2 + pading * 2 + 内容
 c.常用标签：块级的，<div> <ul> <ol> <p> <h> <table>
 d.3D模型  层级关系从内到外 border  content+padding background-image background-color margin
 
