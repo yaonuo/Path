@@ -6,6 +6,8 @@
 <!-- --------------------------------------------- -->
 <title>css样式 - 嵌入式</title>
 <style type="text/css">
+/**{margin: 0;padding: 0} 初始化浏览器*/ 
+
 span{
    color:blue;
 }
@@ -77,14 +79,14 @@ c.元素宽度在不设置的情况下，是它本身父容器的100%（和父�
 d.通过display:block 强转成块级元素
 <div>、<p>、<h1>...<h6>、<ol>、<ul>、<dl>、<table>、<address>、<blockquote> 、<form>
 
-2.内联
+2.内联 行内
 a.和其他元素都在一行上；
 b.元素的高度、宽度及顶部和底部边距不可设置；
 c.元素的宽度就是它包含的文字或图片的宽度，不可改变。
 d.通过display:inline 强转成块级元素
 <a>、<span>、<br>、<i>、<em>、<strong>、<label>、<q>、<var>、<cite>、<code>
 
-3.内联块级
+3.内联块级  行内块级
 a.和其他元素都在一行上；
 b.元素的高度、宽度、行高以及顶和底边距都可设置
 c.通过display:inline-block 强转成块级元素
@@ -102,6 +104,7 @@ c.通过display:inline-block 强转成块级元素
 a.边框、内填充、外边距 都有四个方向，如：padding-left 、margin-bottom
 b.实际高度 ＝ 内容 + pading * 2 + border * 2
 c.常用标签：块级的，<div> <ul> <ol> <p> <h> <table>
+d.3D模型  层级关系从内到外 border  content+padding background-image background-color margin
 
 // 盒子模型代码简写
 margin:10px;				---		top、right、bottom、left的值相同
